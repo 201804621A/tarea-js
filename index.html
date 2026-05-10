@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de java script</title>
+   
+</head>
+<body>
+    
+    <div " suma numeros">
+         <h2>Suma de dos números</h2>
+    <p id="resultado"></p>
+    <script>
+        let num1 = 15;
+        let num2 = 8;
+        let suma = num1 + num2;
+        document.getElementById("resultado").innerHTML =
+            "La suma de " + num1 + " + " + num2 + " es: " + suma;
+    </script>
+    </div>
+    <hr>
+    <div "numero par o impar">
+          <h2>Verificar si un número es par o impar</h2>
+    <script>
+        let numero = 12;
+        if(numero % 2 == 0){
+            document.write("El número 12 es: Par");
+        } else {
+            document.write("El número 12 es: Impar");
+        }
+    </script>
+    </script>
+    </div>
+    <hr>
+    <div "promedio">
+        <h2>Calcular el promedio de tres notas</h2>
+
+    <script>
+        let nota1 = 14;
+        let nota2 = 16;
+        let nota3 = 18;
+        let promedio = (nota1 + nota2 + nota3) / 3;
+        document.write("Las notas son 14, 16 y 18.<br>");
+        document.write("El promedio es: " + promedio);
+    </script>
+    </div>
+    <hr>
+    <div "edad">
+         <h2>Mostrar un mensaje según la edad</h2>
+    <script>
+        let edad = 20;
+        if(edad >= 18){
+            document.write("Edad ingresada: 20<br>");
+            document.write("La persona es mayor de edad");
+        } else {
+            document.write("Edad ingresada: 20<br>");
+            document.write("La persona es menor de edad");
+        }
+    </script>
+    </div>
+    <hr>
+    <div "calcular area">
+        <h2>Calcular el área de un rectángulo</h2>
+    <p id="resultadoa"></p>
+    
+    </div>
+    <hr>
+    <div "grados">  
+        <h2>Convertir grados Celsius a Fahrenheit</h2>
+    <p id="resultadoc"></p>  
+</div>
+<hr>
+<div "calcular descuento">
+    <h2>Calcular el descuento de un producto</h2>
+    <p id="resultadod"></p>
+</div>
+<hr>
+<div>
+    <h2>Tabla de multiplicar</h2>
+    <p id="resultadot"></p>
+</div>
+<hr>
+<div>
+    <h2>Contar números pares en una lista</h2>
+    <p id="resultadopa"></p>
+</div>
+<hr>
+<div>
+    <h2>Evaluar el nivel de rendimiento académico</h2>
+    <p id="resultadopr"></p>
+</div>
+<script src="script.js"> </script>
+</body>
+</html>
